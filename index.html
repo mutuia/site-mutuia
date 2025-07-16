@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mutu.IA - Estratégia e Automação</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <img src="img/logo.png" alt="Logo Mutu.IA" class="logo">
+  </header>
+
+  <section class="section reveal">
+    <h1>Transformamos vendas em processos inteligentes</h1>
+    <button onclick="toggleContent('sobre')">Ver mais</button>
+    <div id="sobre" class="hidden">
+      <p>Somos a Mutu.IA. Automatizamos negócios reais com inteligência digital. Atendimento, marketing e funil — tudo integrado. Baseados em Governador Valadares, com visão de Brasil.</p>
+    </div>
+  </section>
+
+  <section class="section reveal">
+    <h2>O que fazemos</h2>
+    <button onclick="toggleContent('servicos')">Ver mais</button>
+    <div id="servicos" class="hidden">
+      <ul>
+        <li><strong>Automação de WhatsApp:</strong> Bots que vendem 24h/dia.</li>
+        <li><strong>Estratégia Digital:</strong> Posicionamento com conversão.</li>
+        <li><strong>Funis Inteligentes:</strong> Da prospecção ao pós-venda.</li>
+        <li><strong>Produtos Digitais:</strong> Cursos, mentorias e lançamentos.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section reveal">
+    <h2>Nosso time</h2>
+    <div class="team">
+      <div class="member">
+        <img src="img/arayan.jpg" alt="Arayan">
+        <p>Arayan<br><span>Visão Estratégica</span></p>
+      </div>
+      <div class="member">
+        <img src="img/raony.jpg" alt="Raony">
+        <p>Raony<br><span>Operações Digitais</span></p>
+      </div>
+      <div class="member">
+        <img src="img/sergio.jpg" alt="Sérgio">
+        <p>Sérgio<br><span>Design & Performance</span></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section reveal">
+    <h2>Fale com a gente</h2>
+    <p>Está pronto pra automatizar suas vendas?<br>Vamos conversar agora.</p>
+  </section>
+
+  <footer>
+    © 2025 Mutu.IA — Inteligência aplicada à escala de negócios.
+  </footer>
+
+  <a href="https://wa.me/553399151992?text=Quero%20automatizar%20minhas%20vendas%20com%20a%20Mutu.IA" class="btn-whatsapp" target="_blank">
+    💬 Fale conosco
+  </a>
+
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal().reveal('.reveal', {
+      duration: 800,
+      distance: '20px',
+      easing: 'ease-out',
+      origin: 'bottom',
+      reset: false
+    });
+  </script>
+</body>
+</html>

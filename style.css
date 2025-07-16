@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  background: #000;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  border-bottom: 1px solid #222;
+}
+
+.logo {
+  width: 100px;
+}
+
+.section {
+  padding: 40px 20px;
+  max-width: 960px;
+  margin: auto;
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #00ffff;
+  margin-bottom: 10px;
+}
+
+button {
+  background: #00ffff;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #00cccc;
+}
+
+.hidden {
+  display: none;
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.member {
+  text-align: center;
+}
+
+.member img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #00ffff;
+  box-shadow: 0 0 15px #00ffff;
+  object-fit: cover;
+}
+
+.member p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.member span {
+  display: block;
+  font-size: 0.9em;
+  color: #ccc;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #888;
+  border-top: 1px solid #222;
+}
+
+.btn-whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 0 10px #25D366;
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.btn-whatsapp:hover {
+  background-color: #1eb75e;
+}
